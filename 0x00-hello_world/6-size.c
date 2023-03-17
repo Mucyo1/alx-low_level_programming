@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 /**
- * main - function returns an integer value to indicate the success or failure
- * return - return 0
+ * main - function ...
+ * Return: 0
  */
 int main(void)
 {
-	printf("size of char: %lu byte(s)", sizeof(char));
+	printf("size of char: %lu byte(s)\n", sizeof(char));
 	printf("size of int: %lu byte(s)", sizeof(int));
 	printf("size of a long int: %lu byte(s)", sizeof(long int));
 	printf("size of long long int: %lu byte(s)", sizeof(long long int));
