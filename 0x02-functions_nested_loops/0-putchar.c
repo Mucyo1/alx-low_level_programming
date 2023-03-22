@@ -2,9 +2,9 @@
 /* more headers goes there */
 /*betty style doc for functionmain goes therw */
 /**
- * _putchar - return value
- * main - function ...
+ * main - function
  * Return: 0
+ * _putchar - ......
  */
 int main(void)
 {
