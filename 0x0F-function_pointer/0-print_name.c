@@ -1,9 +1,9 @@
 #include "function_pointers.h"
 #include <stdio.h>
 /**
- * print_name - function to print name using pointer to function
- * @name:a declared string to add
- * @f: pointer to function
+ * print_name - function that prints name
+ * @name: string declared in function
+ * @f: a pointer
  *
  * Return: returns nothing
  **/
