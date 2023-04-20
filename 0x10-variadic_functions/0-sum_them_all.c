@@ -2,10 +2,13 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - function to be called
+ * sum_them_all - function to be called.
+ * @n: The number of paramters.
+ *
  * @...: number of paramters.
- * @n: The number of paramters
+ * Return: sum of parameters
  */
+
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list p;
