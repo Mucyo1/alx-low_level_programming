@@ -3,7 +3,7 @@
 
 /**
  * sum_them_all - function to be called
- *
+ * @...: number of paramters.
  * @n: The number of paramters
  */
 int sum_them_all(const unsigned int n, ...)
