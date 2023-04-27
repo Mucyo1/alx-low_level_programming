@@ -7,13 +7,13 @@
  */
 void free_list(list_t *head)
 {
-	lit_t *temporary;
+	list_t *temporary;
 
 	while (head)
 	{
 		temporary = head;
 		head = head->next;
 		free(temporary->str);
-		free(temp);
+		free(temporary);
 	}
 }
