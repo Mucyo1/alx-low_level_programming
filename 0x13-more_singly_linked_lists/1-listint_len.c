@@ -11,11 +11,7 @@ size_t listint_len(const listint_t *h)
 {
 	size_t count = 0;
 
-	if (h == NULL)
-	{
-		printf("this is empty");
-	}
-	while (h != NULL)
+	while (h)
 	{
 		count++;
 		h = h->next;
